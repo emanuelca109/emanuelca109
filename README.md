@@ -1,121 +1,222 @@
 <div align="center">
 
-  <!-- Banner Superior Moderno y Elegante -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,36&height=220&section=header&text=Enmanuel%20✨&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineer&descFontSize=18&descAlignY=58&descColor=e0e7ff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=0D1117&height=170&text=ENMANUEL&fontSize=84&fontColor=00B341&fontAlignY=50&stroke=00B341&strokeWidth=2&animation=fadeIn" width="100%" />
 
-  <!-- Typing SVG con fondo transparente y tipografía moderna Poppins -->
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=19&pause=1000&color=4F46E5&center=true&vCenter=true&width=650&lines=%C2%A1Hola!+Bienvenido+a+mi+espacio+de+desarrollo+%F0%9F%91%8B;Desarrollador+Full+Stack+enfocado+en+soluciones+web;Especialista+en+PHP%2C+JavaScript%2C+MySQL+y+Python;Transformando+ideas+en+software+robusto+y+escalable" alt="Typing SVG" />
+<a href="https://github.com/emanuelca109">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=00B341&center=true&vCenter=true&width=760&height=45&lines=%5B+Full-Stack+Developer+%5D;%5B+Laravel+%7C+PHP+%7C+MySQL+%7C+JavaScript+%5D;%5B+Construyendo+Coffee.Dat+desde+Colombia+%5D;%5B+C%C3%B3digo+limpio.+Arquitectura+s%C3%B3lida.+%5D" alt="Typing SVG" />
+</a>
 
-  <br/><br/>
+<br>
 
-  <!-- Botones de Redes Sociales y Contacto -->
-  <a href="https://github.com/emanuelca109"><img src="https://img.shields.io/badge/GitHub-emanuelca109-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:emasan1999@gmail.com"><img src="https://img.shields.io/badge/Gmail-emasan1999%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=emanuelca109&label=Visitas&color=6366f1&style=for-the-badge" alt="Visitas al perfil" />
+<img src="https://komarev.com/ghpvc/?username=emanuelca109&label=VISITAS&color=00B341&style=flat-square&labelColor=0D1117" />
+<img src="https://img.shields.io/github/followers/emanuelca109?label=SEGUIDORES&style=flat-square&color=00B341&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/ESTADO-DISPONIBLE-00B341?style=flat-square&labelColor=0D1117" />
 
 </div>
 
----
-
-### 💫 Sobre Mí
-
-```javascript
-const enmanuel = {
-  nombre: "Enmanuel",
-  rol: "Full Stack Developer",
-  ubicacion: "Colombia",
-  pasion: "Construir aplicaciones web modernas, eficientes y visualmente atractivas",
-  stack_principal: ["PHP", "JavaScript", "MySQL", "Python", "HTML5/CSS3"],
-  filosofia: "Código limpio, arquitecturas escalables y constante aprendizaje"
-};
-```
-
-* 🚀 Desarrollando activamente plataformas de comercio electrónico, sistemas de inventarios y aplicaciones interactivas.
-* 💡 Especializado en lógica de backend sólida con **PHP & MySQL**, complementada con interfaces dinámicas en **JavaScript**.
-* 🎯 Enfocado en la optimización de procesos, experiencia de usuario y arquitectura limpia de software.
-
----
-
-### 🛠️ Tecnologías & Herramientas
+<br>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,js,python,mysql,html,css,bootstrap,tailwind,git,github,vscode,linux,postman,docker&perline=14" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:00B341,100:FFFFFF&height=2&section=header" width="85%" />
 </div>
 
----
+<br>
 
-### 🚀 Proyectos Destacados
+<h2 align="center">⌨️ &nbsp;Sobre mí</h2>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">☕ coffee_dat</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/E--Commerce-6366F1?style=flat-square" />
-      </p>
-      <p>Plataforma de comercio electrónico diseñada para el sector caficultor, con catálogo interactivo y gestión integral.</p>
-      <p align="center">
-        <a href="https://github.com/emanuelca109/coffee_dat"><b>👉 Ver Repositorio en GitHub</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">📊 sistema-calificaciones</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Gestión-10B981?style=flat-square" />
-      </p>
-      <p>Sistema web para la administración, registro, procesamiento y control de calificaciones académicas en tiempo real.</p>
-      <p align="center">
-        <a href="https://github.com/emanuelca109/sistema-calificaciones"><b>👉 Ver Repositorio en GitHub</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📦 sistema_inventario</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-        <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Logística-F59E0B?style=flat-square" />
-      </p>
-      <p>Solución digital para el control de inventarios, stock y trazabilidad de entradas/salidas de productos.</p>
-      <p align="center">
-        <a href="https://github.com/emanuelca109/sistema_inventario"><b>👉 Ver Repositorio en GitHub</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🎲 eco-bingo</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-        <img src="https://img.shields.io/badge/Juego_Web-8B5CF6?style=flat-square" />
-      </p>
-      <p>Aplicación web lúdica con dinámicas interactivas orientadas a la educación y concienciación ambiental.</p>
-      <p align="center">
-        <a href="https://github.com/emanuelca109/eco-bingo"><b>👉 Ver Repositorio en GitHub</b></a>
-      </p>
-    </td>
-  </tr>
+<table align="center">
+<tr>
+<td>
+
+<pre>
+┌──(enmanuel㉿colombia)-[~]
+└─$ whoami
+
+ ◈ Rol        →  Full-Stack Developer · Estudiante
+ ◈ Origen     →  Colombia 🇨🇴
+ ◈ Stack      →  Laravel, PHP, MySQL, JavaScript, Tailwind
+ ◈ Enfoque    →  Apps web completas, e-commerce y APIs
+ ◈ Entorno    →  Git, GitHub, Linux, VS Code, draw.io
+ ◈ Filosofía  →  Código limpio, arquitectura sólida, aprendizaje continuo
+ ◈ Proyecto   →  Coffee.Dat
+ ◈ Estado     →  Disponible para proyectos y colaboraciones
+</pre>
+
+</td>
+<td align="center" width="200">
+
+<img src="https://github.com/emanuelca109.png?size=200" width="170" alt="Enmanuel" style="border-radius: 50%;" />
+
+</td>
+</tr>
 </table>
 
----
-
-### 📈 Estadísticas de Desarrollo
+<br>
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=emanuelca109&show_icons=true&theme=radical&border_radius=10&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelca109&layout=compact&theme=radical&border_radius=10" alt="Lenguajes Principales" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:00B341,100:FFFFFF&height=2&section=header" width="85%" />
 </div>
+
+<br>
+
+<h2 align="center">🔗 &nbsp;Conecta conmigo</h2>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emanuelca109&theme=radical&border_radius=10" alt="Racha en GitHub" />
+
+<a href="https://github.com/emanuelca109"><img src="https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00FF41" /></a>
+<a href="mailto:emasan1999@gmail.com"><img src="https://img.shields.io/badge/CORREO-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41" /></a>
+<a href="https://www.linkedin.com/in/emanuelca109"><img src="https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41" /></a>
+
 </div>
 
----
+<br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,36&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:00B341,100:FFFFFF&height=2&section=header" width="85%" />
 </div>
+
+<br>
+
+<h2 align="center">🛠️ &nbsp;Tecnologías y herramientas</h2>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/LARAVEL-00B341?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-00B341?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/MYSQL-00B341?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/JAVASCRIPT-00B341?style=for-the-badge&logo=javascript&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-00B341?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-00B341?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/TAILWIND-00B341?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/BOOTSTRAP-00B341?style=for-the-badge&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/GIT-00B341?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GITHUB-00B341?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/LINUX-00B341?style=for-the-badge&logo=linux&logoColor=white" />
+<img src="https://img.shields.io/badge/VS%20CODE-00B341?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img src="https://img.shields.io/badge/POSTMAN-00B341?style=for-the-badge&logo=postman&logoColor=white" />
+
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:00B341,100:FFFFFF&height=2&section=header" width="85%" />
+</div>
+
+<br>
+
+<h2 align="center">🚀 &nbsp;Proyecto destacado</h2>
+
+<table align="center">
+<tr>
+<td align="center" width="720">
+
+<h3>☕ Coffee.Dat</h3>
+
+<p>
+Plataforma <b>full-stack</b> de comercio electrónico para productos de cultivo de café.<br>
+Arquitectura limpia, base de datos relacional y experiencia de usuario pensada para el caficultor.
+</p>
+
+<img src="https://img.shields.io/badge/Laravel-00B341?style=flat-square&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-00B341?style=flat-square&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-00B341?style=flat-square&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind-00B341?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/E--Commerce-0D1117?style=flat-square&logo=shopify&logoColor=00FF41" />
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+<a href="https://github.com/emanuelca109/coffee_dat">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelca109&repo=coffee_dat&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=00B341&icon_color=00B341&text_color=24292F" />
+</a>
+<a href="https://github.com/emanuelca109/sistema-calificaciones">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelca109&repo=sistema-calificaciones&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=00B341&icon_color=00B341&text_color=24292F" />
+</a>
+
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:00B341,100:FFFFFF&height=2&section=header" width="85%" />
+</div>
+
+<br>
+
+<h2 align="center">📊 &nbsp;Estadísticas de GitHub</h2>
+
+<div align="center">
+
+<img height="190" src="https://github-readme-stats.vercel.app/api?username=emanuelca109&show_icons=true&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=00B341&icon_color=00B341&text_color=24292F&ring_color=00B341&count_private=true" />
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelca109&layout=donut&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=00B341&text_color=24292F" />
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=emanuelca109&hide_border=false&border=D0D7DE&background=FFFFFF&ring=00B341&fire=00B341&currStreakLabel=00B341&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=6E7781" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=emanuelca109&bg_color=FFFFFF&color=00B341&line=00B341&point=24292F&area=true&area_color=00B341&hide_border=true" width="100%" />
+
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:00B341,100:FFFFFF&height=2&section=header" width="85%" />
+</div>
+
+<br>
+
+<h2 align="center">🎯 &nbsp;Objetivos 2026</h2>
+
+```diff
++ Dominar Laravel y arquitecturas escalables
++ Lanzar Coffee.Dat a producción
++ Profundizar en seguridad y buenas prácticas
++ Construir un portafolio sólido de proyectos reales
++ Contribuir a proyectos open source
+- Tutorial hell
+- Bugs en producción
+- Código sin documentar
+```
+
+<br>
+
+<h2 align="center">🧠 &nbsp;Filosofía</h2>
+
+```php
+<?php
+
+class Enmanuel extends Developer
+{
+    protected string $motto   = 'Hazlo funcionar. Hazlo limpio. Hazlo rápido.';
+    protected array  $fuel    = ['café colombiano', 'música', 'curiosidad'];
+    protected string $mindset = 'Siempre aprendiendo, siempre construyendo';
+
+    public function vivir(): never
+    {
+        while (true) {
+            $this->aprender();
+            $this->programar();
+            $this->mejorar();
+        }
+    }
+}
+```
+
+<br>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1200&color=00B341&center=true&vCenter=true&width=640&lines=%22El+mejor+c%C3%B3digo+es+el+que+resuelve+problemas+reales.%22;%C2%BFTienes+una+idea%3F+Constru%C3%BAyamosla+juntos" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B341,100:0D1117&height=110&section=footer&animation=fadeIn" width="100%" />
