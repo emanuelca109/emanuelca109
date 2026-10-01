@@ -19,7 +19,6 @@
     .val-accent { fill: #7EE787; }
     .ascii { fill: #388BFD; font-family: monospace; font-size: 11px; line-height: 1.1; }
     .prompt { fill: #00FF41; font-family: 'Fira Code', monospace; font-size: 13.5px; font-weight: bold; }
-    .comment { fill: #7D8590; }
   </style>
 
   <!-- Card Background -->
@@ -65,7 +64,7 @@
     <text x="0" y="0" class="title-text">emanuelca109-dev@github</text>
     <line x1="0" y1="8" x2="480" y2="8" stroke="url(#lineGrad)" stroke-width="1.5" />
 
-    <!-- Details List -->
+    <!-- Details List (No emojis) -->
     <g transform="translate(0, 30)" class="term-text">
       <text x="0" y="0"><tspan class="key">Rol:</tspan> <tspan class="val">Desarrollador Full Stack / Software Engineer</tspan></text>
       <text x="0" y="20"><tspan class="key">Educacion:</tspan> <tspan class="val">Ingenieria de Software / Desarrollo Web</tspan></text>
@@ -74,11 +73,11 @@
       <text x="0" y="80"><tspan class="key">Stack.Backend:</tspan> <tspan class="val">php, laravel, python, nodejs, sql</tspan></text>
       <text x="0" y="100"><tspan class="key">Stack.Database:</tspan> <tspan class="val">sql, mysql, postgresql</tspan></text>
       <text x="0" y="120"><tspan class="key">Entorno:</tspan> <tspan class="val">windows, linux, git, github, vscode, postman</tspan></text>
-      <text x="0" y="140"><tspan class="key">Ubicacion:</tspan> <tspan class="val">Colombia CO</tspan> <tspan class="val-accent">🇨🇴</tspan></text>
+      <text x="0" y="140"><tspan class="key">Ubicacion:</tspan> <tspan class="val">Colombia</tspan> <tspan class="val-accent">[CO]</tspan></text>
       <text x="0" y="160"><tspan class="key">Filosofia:</tspan> <tspan class="val">codigo limpio, sistemas escalables y aprendizaje</tspan></text>
       <text x="0" y="180"><tspan class="key">Contacto.GitHub:</tspan> <tspan class="val">github.com/emanuelca109</tspan></text>
       <text x="0" y="200"><tspan class="key">Contacto.Correo:</tspan> <tspan class="val">emasan1999@gmail.com</tspan></text>
-      <text x="0" y="220"><tspan class="key">GitHub.Status:</tspan> <tspan class="val-accent">🚀 Activo &amp; Desarrollando</tspan></text>
+      <text x="0" y="220"><tspan class="key">GitHub.Status:</tspan> <tspan class="val-accent">[ACTIVE &amp; DEVELOPING]</tspan></text>
       <text x="0" y="240"><tspan class="key">GitHub.Lenguajes:</tspan> <tspan class="val">PHP, JavaScript, Python, SQL</tspan></text>
       <text x="0" y="260"><tspan class="key">GitHub.Herramientas:</tspan> <tspan class="val">Linux, Git, VS Code, Postman</tspan></text>
     </g>

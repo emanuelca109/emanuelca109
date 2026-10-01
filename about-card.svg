@@ -32,16 +32,16 @@
   <circle cx="56" cy="20" r="5" fill="#27C93F" />
 
   <!-- Prompt & Whoami -->
-  <text x="24" y="52" class="font-mono prompt">┌──(enmanuel㉿colombia)-[~]</text>
+  <text x="24" y="52" class="font-mono prompt">┌──(enmanuel@colombia)-[~]</text>
   <text x="24" y="74" class="font-mono prompt">└─$ <tspan class="cmd">whoami</tspan></text>
 
-  <!-- Profile Key-Values with Code & Hacker Syntax Colors on White Background -->
+  <!-- Profile Key-Values with Code Syntax Colors on White Background (No Emojis) -->
   <g transform="translate(24, 106)" class="font-mono">
     <!-- Rol -->
-    <text x="0" y="0"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Rol       </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Full-Stack Developer</tspan> <tspan fill="#57606A">·</tspan> <tspan class="val-str">Software Engineer</tspan></text>
+    <text x="0" y="0"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Rol       </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Full-Stack Developer</tspan> <tspan fill="#57606A">|</tspan> <tspan class="val-str">Software Engineer</tspan></text>
     
     <!-- Origen -->
-    <text x="0" y="24"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Origen    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Colombia</tspan> <tspan class="val-accent">🇨🇴</tspan></text>
+    <text x="0" y="24"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Origen    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Colombia</tspan> <tspan class="val-accent">[CO]</tspan></text>
     
     <!-- Stack -->
     <text x="0" y="48"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Stack     </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Laravel</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">PHP</tspan><tspan fill="#57606A">, </tspan><tspan class="val-accent">MySQL</tspan><tspan fill="#57606A">, </tspan><tspan class="val-orange">JavaScript</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">Tailwind</tspan></text>
@@ -56,7 +56,7 @@
     <text x="0" y="120"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Filosofía </tspan> <tspan class="arrow">→</tspan> <tspan class="val-str">Código limpio, arquitectura sólida, aprendizaje continuo</tspan></text>
     
     <!-- Proyecto -->
-    <text x="0" y="144"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Proyecto  </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Coffee.Dat</tspan> <tspan fill="#57606A">(Tienda virtual caficultura)</tspan></text>
+    <text x="0" y="144"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Proyecto  </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Coffee.Dat</tspan> <tspan fill="#57606A">[Plataforma E-Commerce]</tspan></text>
     
     <!-- Estado -->
     <text x="0" y="168"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Estado    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-online">[ONLINE]</tspan> <tspan class="val-str">Disponible para proyectos y colaboraciones</tspan></text>
