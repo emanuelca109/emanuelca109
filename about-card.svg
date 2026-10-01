@@ -10,6 +10,19 @@
   </defs>
 
   <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes avatarPulse {
+      0%, 100% { stroke: #00B341; filter: drop-shadow(0 0 2px rgba(0,179,65,0.4)); }
+      50% { stroke: #00FF66; filter: drop-shadow(0 0 10px rgba(0,255,102,0.8)); }
+    }
+    @keyframes onlinePulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; }
+    }
+
     .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
     .prompt { fill: #00872E; font-weight: bold; font-size: 14.5px; }
     .cmd { fill: #0969DA; font-weight: bold; font-size: 14.5px; }
@@ -20,7 +33,9 @@
     .val-accent { fill: #0969DA; font-size: 13.5px; font-weight: 600; }
     .val-orange { fill: #BC4C00; font-size: 13.5px; font-weight: 600; }
     .val-green { fill: #116329; font-size: 13.5px; font-weight: 600; }
-    .val-online { fill: #1A7F37; font-weight: bold; font-size: 13.5px; }
+    .val-online { fill: #1A7F37; font-weight: bold; font-size: 13.5px; animation: onlinePulse 2s infinite ease-in-out; }
+    .avatar-border { animation: avatarPulse 2.5s infinite ease-in-out; }
+    .cursor-blink { animation: blink 1s infinite steps(1); fill: #00872E; font-weight: bold; }
   </style>
 
   <!-- Left Terminal Container (White / Light Background) -->
@@ -35,7 +50,7 @@
   <text x="24" y="52" class="font-mono prompt">┌──(enmanuel@colombia)-[~]</text>
   <text x="24" y="74" class="font-mono prompt">└─$ <tspan class="cmd">whoami</tspan></text>
 
-  <!-- Profile Key-Values with Code Syntax Colors on White Background (No Emojis) -->
+  <!-- Profile Key-Values with Code Syntax Colors on White Background -->
   <g transform="translate(24, 106)" class="font-mono">
     <!-- Rol -->
     <text x="0" y="0"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Rol       </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Full-Stack Developer</tspan> <tspan fill="#57606A">|</tspan> <tspan class="val-str">Software Engineer</tspan></text>
@@ -62,11 +77,11 @@
     <text x="0" y="168"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Estado    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-online">[ONLINE]</tspan> <tspan class="val-str">Disponible para proyectos y colaboraciones</tspan></text>
   </g>
 
-  <!-- Bottom prompt -->
-  <text x="24" y="312" class="font-mono prompt">└─$ <tspan fill="#00872E">_</tspan></text>
+  <!-- Bottom prompt with blinking cursor -->
+  <text x="24" y="312" class="font-mono prompt">└─$ <tspan class="cursor-blink">█</tspan></text>
 
-  <!-- Right Avatar Card with White Background and Green Border -->
-  <rect x="670" y="35" width="180" height="266" rx="16" fill="url(#cardLightBg)" stroke="#00B341" stroke-width="2" />
+  <!-- Right Avatar Card with Animated Glowing Green Border -->
+  <rect x="670" y="35" width="180" height="266" rx="16" fill="url(#cardLightBg)" stroke="#00B341" stroke-width="2.5" class="avatar-border" />
   
   <image href="https://github.com/emanuelca109.png" x="680" y="45" width="160" height="190" clip-path="url(#avatarClip)" />
   

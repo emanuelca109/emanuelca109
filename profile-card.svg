@@ -12,20 +12,43 @@
   </defs>
 
   <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes neonGlow {
+      0%, 100% { filter: drop-shadow(0 0 2px #00FF41); }
+      50% { filter: drop-shadow(0 0 8px #00FF41) drop-shadow(0 0 15px rgba(0,255,65,0.4)); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0px); opacity: 0.15; }
+      50% { opacity: 0.35; }
+      100% { transform: translateY(480px); opacity: 0.15; }
+    }
+    @keyframes pulseDot {
+      0%, 100% { r: 5.5; opacity: 1; }
+      50% { r: 6.5; opacity: 0.7; }
+    }
+
     .term-text { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13.5px; }
-    .title-name { font-family: 'Fira Code', monospace; font-size: 19px; font-weight: bold; fill: #00FF41; }
+    .title-name { font-family: 'Fira Code', monospace; font-size: 19px; font-weight: bold; fill: #00FF41; animation: neonGlow 3s infinite ease-in-out; }
     .title-user { font-family: 'Fira Code', monospace; font-size: 13.5px; fill: #58A6FF; }
     .key { fill: #58A6FF; font-weight: 600; }
     .val { fill: #E6EDF3; }
     .val-accent { fill: #7EE787; }
     .ascii { fill: #388BFD; font-family: monospace; font-size: 11px; line-height: 1.1; }
     .prompt { fill: #00FF41; font-family: 'Fira Code', monospace; font-size: 13.5px; font-weight: bold; }
+    .cursor-blink { animation: blink 1s infinite steps(1); fill: #00FF41; }
+    .scan-bar { animation: scanline 6s linear infinite; }
   </style>
 
   <!-- Card Background -->
   <rect x="2" y="2" width="876" height="496" rx="12" fill="url(#bgGrad)" stroke="#30363D" stroke-width="1.5" />
 
-  <!-- Window Buttons -->
+  <!-- Animated Scanline -->
+  <line x1="10" y1="10" x2="870" y2="10" stroke="#00FF41" stroke-width="1.5" stroke-opacity="0.3" class="scan-bar" />
+
+  <!-- Window Buttons with Pulse -->
   <circle cx="24" cy="22" r="5.5" fill="#FF5F56" />
   <circle cx="42" cy="22" r="5.5" fill="#FFBD2E" />
   <circle cx="60" cy="22" r="5.5" fill="#27C93F" />
@@ -61,7 +84,7 @@
 
   <!-- Right Side Terminal Content -->
   <g transform="translate(365, 45)">
-    <!-- Header Title con Nombre Integrado y Compacto -->
+    <!-- Header Title con Nombre Neón Animado -->
     <text x="0" y="0" class="title-name">ENMANUEL <tspan font-size="13px" fill="#7EE787" font-weight="normal">// FULL-STACK DEVELOPER</tspan></text>
     <text x="0" y="20" class="title-user">emanuelca109@github</text>
     <line x1="0" y1="28" x2="480" y2="28" stroke="url(#lineGrad)" stroke-width="1.5" />
@@ -96,9 +119,9 @@
     </g>
   </g>
 
-  <!-- Bottom Terminal Prompt -->
+  <!-- Bottom Terminal Prompt with Animated Blinking Cursor -->
   <g transform="translate(25, 450)">
     <text x="0" y="0" class="prompt">┌──(emanuelca109@github)-[~]</text>
-    <text x="0" y="22" class="prompt">└─$ <tspan fill="#E6EDF3">Construyendo soluciones web y arquitectura sólida...</tspan></text>
+    <text x="0" y="22" class="prompt">└─$ <tspan fill="#E6EDF3">Construyendo soluciones web y arquitectura sólida</tspan><tspan class="cursor-blink"> █</tspan></text>
   </g>
 </svg>
