@@ -85,27 +85,6 @@
 
 <br/>
 
-<h3 align="center">🚀 Proyectos Destacados</h3>
-
-<div align="center">
-
-<a href="https://github.com/emanuelca109/coffee_dat">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelca109&repo=coffee_dat&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=00B341&icon_color=00B341&text_color=24292F" />
-</a>
-<a href="https://github.com/emanuelca109/sistema-calificaciones">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=emanuelca109&repo=sistema-calificaciones&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=00B341&icon_color=00B341&text_color=24292F" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFFFFF,50:00B341,100:FFFFFF&height=2&section=header" width="85%" />
-</div>
-
-<br/>
-
 <h3 align="center">📊 Estadísticas de GitHub</h3>
 
 <div align="center">
