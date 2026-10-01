@@ -89,17 +89,17 @@
 
 <div align="center">
 
-<!-- Gráficas Estilo Hacker / Código en Fondo Terminal 0D1117 y Verde 00FF41 -->
-<img height="185" src="https://github-readme-stats.vercel.app/api?username=emanuelca109&show_icons=true&hide_border=false&border_color=00FF41&bg_color=0D1117&title_color=00FF41&icon_color=00E5FF&text_color=00FF41&ring_color=00FF41&border_radius=8&count_private=true" />
-<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelca109&layout=donut&hide_border=false&border_color=00FF41&bg_color=0D1117&title_color=00FF41&text_color=00FF41&border_radius=8" />
+<!-- Gráficas Profesionales con Fondo Blanco, Bordes Esmeralda y Colores de Sintaxis de Código -->
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=emanuelca109&show_icons=true&hide_border=false&border_color=00B341&bg_color=FFFFFF&title_color=00872E&icon_color=8250DF&text_color=24292F&ring_color=00B341&border_radius=10&count_private=true" />
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelca109&layout=donut&hide_border=false&border_color=00B341&bg_color=FFFFFF&title_color=00872E&text_color=24292F&border_radius=10" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=emanuelca109&hide_border=false&border=00FF41&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00E5FF&currStreakNum=00FF41&sideNums=00E5FF&dates=8B949E&border_radius=8" />
+<img src="https://streak-stats.demolab.com?user=emanuelca109&hide_border=false&border=00B341&background=FFFFFF&ring=00B341&fire=00B341&currStreakLabel=00872E&sideLabels=8250DF&currStreakNum=24292F&sideNums=24292F&dates=57606A&border_radius=10" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=emanuelca109&bg_color=0D1117&color=00FF41&line=00FF41&point=00E5FF&area=true&area_color=00FF41&hide_border=false" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=emanuelca109&bg_color=FFFFFF&color=00872E&line=00B341&point=8250DF&area=true&area_color=00B341&hide_border=false" width="100%" />
 
 </div>
 
