@@ -9,48 +9,12 @@
    ╚══════╝╚═╝  ╚═══╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝
 ```
 
-</div>
-
-<table align="center" width="100%">
-<tr>
-<td bgcolor="#0b0f19" style="padding: 24px; border-radius: 10px;">
-
-<h3 style="color: #00FF41; margin-top: 0; font-family: monospace;">emanuelca109@github</h3>
-<hr style="border: 0; border-top: 1px solid #00FF41; margin-bottom: 16px;"/>
-
-<pre style="background: transparent; color: #E6EDF3; border: none; font-size: 13.5px; line-height: 1.6; font-family: 'Fira Code', 'Courier New', monospace;">
-<span style="color: #58A6FF;">Rol:</span> Desarrollador Full Stack / Software Engineer
-<span style="color: #58A6FF;">Educacion:</span> Ingenieria de Software / Desarrollo Web
-<span style="color: #58A6FF;">Enfoque:</span> Aplicaciones Web, E-Commerce, APIs & Sistemas Escalables
-<span style="color: #58A6FF;">Stack.Frontend:</span> html, css, javascript, tailwind, bootstrap
-<span style="color: #58A6FF;">Stack.Backend:</span> php, laravel, python, nodejs, sql
-<span style="color: #58A6FF;">Stack.Database:</span> sql, mysql, postgresql
-<span style="color: #58A6FF;">Entorno:</span> windows, linux, git, github, vscode, postman
-<span style="color: #58A6FF;">Ubicacion:</span> Colombia CO 🇨🇴
-<span style="color: #58A6FF;">Filosofia:</span> codigo limpio, arquitectura solida y aprendizaje continuo
-<span style="color: #58A6FF;">Contacto.GitHub:</span> github.com/emanuelca109
-<span style="color: #58A6FF;">Contacto.Correo:</span> emasan1999@gmail.com
-<span style="color: #58A6FF;">GitHub.Status:</span> 🚀 Activo & Desarrollando
-<span style="color: #58A6FF;">GitHub.Lenguajes:</span> PHP, JavaScript, Python, SQL
-<span style="color: #58A6FF;">GitHub.Herramientas:</span> Linux, Git, VS Code, Postman
-</pre>
-
 <br/>
 
-<div align="left">
-  <span style="background: #1f293d; color: #58a6ff; padding: 4px 10px; border-radius: 4px; font-family: monospace; font-size: 12px;">■ ■ ■ ■ ■ ■ ■ ■</span>
+<!-- Tarjeta Terminal SVG en Alta Definición con Colores de Código Reales -->
+<img src="https://raw.githubusercontent.com/emanuelca109/emanuelca109/main/profile-card.svg" width="100%" alt="Terminal Card" />
+
 </div>
-
-<br/>
-
-<pre style="background: transparent; color: #00FF41; border: none; margin-bottom: 0; font-family: monospace; font-size: 14px;">
-┌──(emanuelca109@github)-[~]
-└─$ Construyendo soluciones escalables y código limpio...
-</pre>
-
-</td>
-</tr>
-</table>
 
 <br/>
 
