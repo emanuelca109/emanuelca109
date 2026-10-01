@@ -1,107 +1,121 @@
 <div align="center">
 
-# 💻 `ENMANUEL // FULL-STACK DEVELOPER`
-### `[ SOFTWARE ENGINEER | BACKEND ARCHITECTURE & WEB SYSTEMS ]`
+  <!-- Banner Superior Moderno y Elegante -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,36&height=220&section=header&text=Enmanuel%20✨&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineer&descFontSize=18&descAlignY=58&descColor=e0e7ff" width="100%"/>
 
-<br/>
+  <!-- Typing SVG con fondo transparente y tipografía moderna Poppins -->
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=19&pause=1000&color=4F46E5&center=true&vCenter=true&width=650&lines=%C2%A1Hola!+Bienvenido+a+mi+espacio+de+desarrollo+%F0%9F%91%8B;Desarrollador+Full+Stack+enfocado+en+soluciones+web;Especialista+en+PHP%2C+JavaScript%2C+MySQL+y+Python;Transformando+ideas+en+software+robusto+y+escalable" alt="Typing SVG" />
 
-<!-- Terminal Animada con ancho amplio y tipografía nítida para evitar cualquier corte -->
-<a href="https://github.com/emanuelca109">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=00FF66&background=0D1117&center=true&vCenter=true&width=800&height=50&lines=%24+whoami+--%3E+Enmanuel+%5BSoftware+Engineer+%26+Full+Stack+Developer%5D;%24+core_stack+--%3E+PHP+%7C+JavaScript+%7C+MySQL+%7C+Python+%7C+Linux;%24+specialty+--%3E+Desarrollo+de+Sistemas+Web%2C+E-Commerce+y+Gesti%C3%B3n;%24+architecture+--%3E+C%C3%B3digo+Limpio%2C+Rendimiento+y+Escalabilidad" alt="Developer Terminal" />
-</a>
+  <br/><br/>
 
-<br/><br/>
-
-<!-- Badges 100% de Programación y Desarrollo -->
-<p align="center">
-  <img src="https://img.shields.io/badge/ROLE-SOFTWARE_ENGINEER-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=00FF66" />
-  <img src="https://img.shields.io/badge/CORE_STACK-PHP_%26_JS-0D1117?style=for-the-badge&logo=php&logoColor=00E5FF" />
-  <img src="https://img.shields.io/badge/DATABASE-MYSQL_%2F_SQL-0D1117?style=for-the-badge&logo=mysql&logoColor=39FF14" />
-  <a href="mailto:emasan1999@gmail.com"><img src="https://img.shields.io/badge/COMMS-EMAIL_DIRECTO-0D1117?style=for-the-badge&logo=gmail&logoColor=FF0055" /></a>
-</p>
+  <!-- Botones de Redes Sociales y Contacto -->
+  <a href="https://github.com/emanuelca109"><img src="https://img.shields.io/badge/GitHub-emanuelca109-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:emasan1999@gmail.com"><img src="https://img.shields.io/badge/Gmail-emasan1999%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=emanuelca109&label=Visitas&color=6366f1&style=for-the-badge" alt="Visitas al perfil" />
 
 </div>
 
 ---
 
-### ⚙️ `// DEVELOPER PROFILE & SPECIALIZATIONS`
+### 💫 Sobre Mí
 
-```yaml
-Developer: "Enmanuel (emanuelca109)"
-Role: "Full-Stack Software Engineer"
-Specialties:
-  - "Desarrollo Backend con PHP y Arquitectura de Bases de Datos Relacionales (MySQL / SQL)"
-  - "Creación de Plataformas Web Interactivas con JavaScript, HTML5 y CSS3"
-  - "Desarrollo de Sistemas de Gestión, Inventarios y Comercio Electrónico"
-  - "Buenas prácticas de desarrollo, optimización de consultas y código modular"
-Environment: "Linux / Windows / VS Code / Git"
-Status: "Disponible para proyectos de software y desarrollo full-stack"
+```javascript
+const enmanuel = {
+  nombre: "Enmanuel",
+  rol: "Full Stack Developer",
+  ubicacion: "Colombia",
+  pasion: "Construir aplicaciones web modernas, eficientes y visualmente atractivas",
+  stack_principal: ["PHP", "JavaScript", "MySQL", "Python", "HTML5/CSS3"],
+  filosofia: "Código limpio, arquitecturas escalables y constante aprendizaje"
+};
 ```
 
+* 🚀 Desarrollando activamente plataformas de comercio electrónico, sistemas de inventarios y aplicaciones interactivas.
+* 💡 Especializado en lógica de backend sólida con **PHP & MySQL**, complementada con interfaces dinámicas en **JavaScript**.
+* 🎯 Enfocado en la optimización de procesos, experiencia de usuario y arquitectura limpia de software.
+
 ---
 
-### ⚡ `// TECH STACK & TOOLS`
+### 🛠️ Tecnologías & Herramientas
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,js,python,mysql,html,css,bash,linux,git,github,vscode,postman,docker,c,bootstrap&theme=dark&perline=15" />
+  <img src="https://skillicons.dev/icons?i=php,js,python,mysql,html,css,bootstrap,tailwind,git,github,vscode,linux,postman,docker&perline=14" />
 </div>
 
 ---
 
-### 📂 `// REPOSITORIOS & PROYECTOS PRINCIPALES`
+### 🚀 Proyectos Destacados
 
 <table>
-  <thead>
-    <tr>
-      <th align="left">Proyecto / Repositorio</th>
-      <th align="left">Descripción del Software</th>
-      <th align="center">Tecnologías</th>
-      <th align="center">Código</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>☕ coffee_dat</b></td>
-      <td>Plataforma de comercio electrónico para caficultura con catálogo interactivo y pasarela de gestión.</td>
-      <td><code>PHP</code> <code>MySQL</code> <code>CSS3</code></td>
-      <td align="center"><a href="https://github.com/emanuelca109/coffee_dat"><b>[ Ver Proyecto ]</b></a></td>
-    </tr>
-    <tr>
-      <td><b>📊 sistema-calificaciones</b></td>
-      <td>Sistema integral para administración, auditoría, procesamiento y control centralizado de calificaciones.</td>
-      <td><code>PHP</code> <code>MySQL</code> <code>Web</code></td>
-      <td align="center"><a href="https://github.com/emanuelca109/sistema-calificaciones"><b>[ Ver Proyecto ]</b></a></td>
-    </tr>
-    <tr>
-      <td><b>📦 sistema_inventario</b></td>
-      <td>Plataforma de control de stock, trazabilidad y gestión de inventario en tiempo real.</td>
-      <td><code>PHP</code> <code>SQL</code> <code>Backend</code></td>
-      <td align="center"><a href="https://github.com/emanuelca109/sistema_inventario"><b>[ Ver Proyecto ]</b></a></td>
-    </tr>
-    <tr>
-      <td><b>🎲 eco-bingo</b></td>
-      <td>Motor de juego interactivo en navegador enfocado en dinámicas lúdicas y educación ambiental.</td>
-      <td><code>JavaScript</code> <code>HTML5</code></td>
-      <td align="center"><a href="https://github.com/emanuelca109/eco-bingo"><b>[ Ver Proyecto ]</b></a></td>
-    </tr>
-  </tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">☕ coffee_dat</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/E--Commerce-6366F1?style=flat-square" />
+      </p>
+      <p>Plataforma de comercio electrónico diseñada para el sector caficultor, con catálogo interactivo y gestión integral.</p>
+      <p align="center">
+        <a href="https://github.com/emanuelca109/coffee_dat"><b>👉 Ver Repositorio en GitHub</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📊 sistema-calificaciones</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Gestión-10B981?style=flat-square" />
+      </p>
+      <p>Sistema web para la administración, registro, procesamiento y control de calificaciones académicas en tiempo real.</p>
+      <p align="center">
+        <a href="https://github.com/emanuelca109/sistema-calificaciones"><b>👉 Ver Repositorio en GitHub</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">📦 sistema_inventario</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Logística-F59E0B?style=flat-square" />
+      </p>
+      <p>Solución digital para el control de inventarios, stock y trazabilidad de entradas/salidas de productos.</p>
+      <p align="center">
+        <a href="https://github.com/emanuelca109/sistema_inventario"><b>👉 Ver Repositorio en GitHub</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🎲 eco-bingo</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/Juego_Web-8B5CF6?style=flat-square" />
+      </p>
+      <p>Aplicación web lúdica con dinámicas interactivas orientadas a la educación y concienciación ambiental.</p>
+      <p align="center">
+        <a href="https://github.com/emanuelca109/eco-bingo"><b>👉 Ver Repositorio en GitHub</b></a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
 
-### 📊 `// TELEMETRÍA & ACTIVIDAD DE GITHUB`
+### 📈 Estadísticas de Desarrollo
 
 <div align="center">
-  <img height="155em" src="https://github-readme-stats.vercel.app/api?username=emanuelca109&show_icons=true&theme=tokyonight&border_radius=8&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub" />
-  <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelca109&layout=compact&theme=tokyonight&border_radius=8" alt="Lenguajes Principales" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=emanuelca109&show_icons=true&theme=radical&border_radius=10&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelca109&layout=compact&theme=radical&border_radius=10" alt="Lenguajes Principales" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emanuelca109&theme=tokyonight&border_radius=8" alt="Racha en GitHub" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emanuelca109&theme=radical&border_radius=10" alt="Racha en GitHub" />
 </div>
 
 ---
 
 <div align="center">
-  <code>💻 Enmanuel (emanuelca109) — Software Engineer & Full Stack Developer 💻</code>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,36&height=100&section=footer" width="100%"/>
 </div>
