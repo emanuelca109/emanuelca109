@@ -11,7 +11,7 @@
 
 <br/>
 
-<!-- Tarjeta Terminal SVG en Alta Definición con Colores de Código Reales -->
+<!-- Tarjeta Terminal Principal con Sintaxis de Código -->
 <img src="https://raw.githubusercontent.com/emanuelca109/emanuelca109/main/profile-card.svg" width="100%" alt="Terminal Card" />
 
 </div>
@@ -24,28 +24,10 @@
 
 <br/>
 
-<table align="center" width="100%">
-<tr>
-<td bgcolor="#F6F8FA" style="padding: 20px; border-radius: 8px;">
-
-<pre style="background: transparent; color: #24292F; border: none; font-size: 14px; line-height: 1.7; font-family: monospace;">
- ◈ Rol          →  Desarrollador Full Stack / Software Engineer
- ◈ Origen       →  Colombia co 🇨🇴
- ◈ Stack Princ. →  PHP, Laravel, JavaScript, MySQL & Python
- ◈ Enfoque      →  Aplicaciones Web Modernas, APIs y Sistemas Escalables
- ◈ Entorno      →  Windows, Linux, Git, GitHub & VS Code
- ◈ Filosofía    →  Código Limpio, Arquitectura Sólida y Aprendizaje Continuo
- ◈ Estado       →  Disponible para Proyectos y Colaboraciones
-</pre>
-
-</td>
-<td align="center" width="220" bgcolor="#F6F8FA" style="padding: 10px; border-radius: 8px;">
-
-<img src="https://github.com/emanuelca109.png?size=220" width="160" alt="Enmanuel" style="border-radius: 8px;" />
-
-</td>
-</tr>
-</table>
+<!-- Tarjeta Sobre Mí con Colores de Programación / Hacker y Foto con Borde Neón -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/emanuelca109/emanuelca109/main/about-card.svg" width="100%" alt="Sobre Mí" />
+</div>
 
 <br/>
 
