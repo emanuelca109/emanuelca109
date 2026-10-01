@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340">
   <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#080c12" />
+    <linearGradient id="cardLightBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F6F8FA" />
     </linearGradient>
     <clipPath id="avatarClip">
       <rect x="680" y="45" width="160" height="190" rx="14" />
@@ -11,19 +11,20 @@
 
   <style>
     .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
-    .prompt { fill: #00FF41; font-weight: bold; font-size: 14.5px; }
-    .cmd { fill: #58A6FF; font-weight: bold; font-size: 14.5px; }
-    .bullet { fill: #00FF41; font-size: 14px; }
-    .key-prop { fill: #D2A8FF; font-weight: bold; font-size: 13.5px; }
-    .arrow { fill: #FFA657; font-weight: bold; font-size: 13.5px; }
-    .val-str { fill: #7EE787; font-size: 13.5px; }
-    .val-accent { fill: #79C0FF; font-size: 13.5px; }
-    .val-orange { fill: #FFA657; font-size: 13.5px; font-weight: 600; }
-    .val-online { fill: #00FF41; font-weight: bold; font-size: 13.5px; }
+    .prompt { fill: #00872E; font-weight: bold; font-size: 14.5px; }
+    .cmd { fill: #0969DA; font-weight: bold; font-size: 14.5px; }
+    .bullet { fill: #00872E; font-size: 14px; font-weight: bold; }
+    .key-prop { fill: #8250DF; font-weight: bold; font-size: 13.5px; }
+    .arrow { fill: #CF222E; font-weight: bold; font-size: 13.5px; }
+    .val-str { fill: #24292F; font-size: 13.5px; }
+    .val-accent { fill: #0969DA; font-size: 13.5px; font-weight: 600; }
+    .val-orange { fill: #BC4C00; font-size: 13.5px; font-weight: 600; }
+    .val-green { fill: #116329; font-size: 13.5px; font-weight: 600; }
+    .val-online { fill: #1A7F37; font-weight: bold; font-size: 13.5px; }
   </style>
 
-  <!-- Left Terminal Container -->
-  <rect x="2" y="2" width="645" height="336" rx="14" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.5" />
+  <!-- Left Terminal Container (White / Light Background) -->
+  <rect x="2" y="2" width="645" height="336" rx="14" fill="url(#cardLightBg)" stroke="#D0D7DE" stroke-width="1.5" />
 
   <!-- Window controls -->
   <circle cx="24" cy="20" r="5" fill="#FF5F56" />
@@ -34,41 +35,41 @@
   <text x="24" y="52" class="font-mono prompt">┌──(enmanuel㉿colombia)-[~]</text>
   <text x="24" y="74" class="font-mono prompt">└─$ <tspan class="cmd">whoami</tspan></text>
 
-  <!-- Profile Key-Values with Code & Hacker Syntax Colors -->
+  <!-- Profile Key-Values with Code & Hacker Syntax Colors on White Background -->
   <g transform="translate(24, 106)" class="font-mono">
     <!-- Rol -->
-    <text x="0" y="0"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Rol       </tspan> <tspan class="arrow">→</tspan> <tspan class="val-str">Full-Stack Developer · Software Engineer</tspan></text>
+    <text x="0" y="0"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Rol       </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Full-Stack Developer</tspan> <tspan fill="#57606A">·</tspan> <tspan class="val-str">Software Engineer</tspan></text>
     
     <!-- Origen -->
-    <text x="0" y="24"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Origen    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-str">Colombia</tspan> <tspan class="val-accent">🇨🇴</tspan></text>
+    <text x="0" y="24"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Origen    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Colombia</tspan> <tspan class="val-accent">🇨🇴</tspan></text>
     
     <!-- Stack -->
-    <text x="0" y="48"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Stack     </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Laravel</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-str">PHP</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-accent">MySQL</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-orange">JavaScript</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-str">Tailwind</tspan></text>
+    <text x="0" y="48"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Stack     </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Laravel</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">PHP</tspan><tspan fill="#57606A">, </tspan><tspan class="val-accent">MySQL</tspan><tspan fill="#57606A">, </tspan><tspan class="val-orange">JavaScript</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">Tailwind</tspan></text>
     
     <!-- Enfoque -->
     <text x="0" y="72"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Enfoque   </tspan> <tspan class="arrow">→</tspan> <tspan class="val-str">Apps web completas, e-commerce y APIs escalables</tspan></text>
     
     <!-- Entorno -->
-    <text x="0" y="96"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Entorno   </tspan> <tspan class="arrow">→</tspan> <tspan class="val-accent">Git</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-str">GitHub</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-orange">Linux</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-accent">VS Code</tspan><tspan fill="#8B949E">, </tspan><tspan class="val-str">Postman</tspan></text>
+    <text x="0" y="96"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Entorno   </tspan> <tspan class="arrow">→</tspan> <tspan class="val-accent">Git</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">GitHub</tspan><tspan fill="#57606A">, </tspan><tspan class="val-orange">Linux</tspan><tspan fill="#57606A">, </tspan><tspan class="val-accent">VS Code</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">Postman</tspan></text>
     
     <!-- Filosofia -->
     <text x="0" y="120"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Filosofía </tspan> <tspan class="arrow">→</tspan> <tspan class="val-str">Código limpio, arquitectura sólida, aprendizaje continuo</tspan></text>
     
     <!-- Proyecto -->
-    <text x="0" y="144"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Proyecto  </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Coffee.Dat</tspan> <tspan fill="#8B949E">(Tienda virtual caficultura)</tspan></text>
+    <text x="0" y="144"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Proyecto  </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Coffee.Dat</tspan> <tspan fill="#57606A">(Tienda virtual caficultura)</tspan></text>
     
     <!-- Estado -->
     <text x="0" y="168"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Estado    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-online">[ONLINE]</tspan> <tspan class="val-str">Disponible para proyectos y colaboraciones</tspan></text>
   </g>
 
   <!-- Bottom prompt -->
-  <text x="24" y="312" class="font-mono prompt">└─$ <tspan fill="#39D353">_</tspan></text>
+  <text x="24" y="312" class="font-mono prompt">└─$ <tspan fill="#00872E">_</tspan></text>
 
-  <!-- Right Avatar Card with Neon Green Border -->
-  <rect x="670" y="35" width="180" height="266" rx="16" fill="url(#cardBg)" stroke="#00FF41" stroke-width="2" />
+  <!-- Right Avatar Card with White Background and Green Border -->
+  <rect x="670" y="35" width="180" height="266" rx="16" fill="url(#cardLightBg)" stroke="#00B341" stroke-width="2" />
   
   <image href="https://github.com/emanuelca109.png" x="680" y="45" width="160" height="190" clip-path="url(#avatarClip)" />
   
-  <text x="760" y="265" text-anchor="middle" class="font-mono" fill="#00FF41" font-size="14px" font-weight="bold">Enmanuel</text>
-  <text x="760" y="285" text-anchor="middle" class="font-mono" fill="#8B949E" font-size="12px">@emanuelca109</text>
+  <text x="760" y="265" text-anchor="middle" class="font-mono" fill="#00872E" font-size="14px" font-weight="bold">Enmanuel</text>
+  <text x="760" y="285" text-anchor="middle" class="font-mono" fill="#57606A" font-size="12px">@emanuelca109</text>
 </svg>
