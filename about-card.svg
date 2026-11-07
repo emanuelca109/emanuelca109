@@ -1,90 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320">
   <defs>
-    <linearGradient id="cardLightBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="100%" stop-color="#F6F8FA" />
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0e1524" />
+      <stop offset="100%" stop-color="#080c14" />
     </linearGradient>
-    <clipPath id="avatarClip">
-      <rect x="680" y="45" width="160" height="190" rx="14" />
-    </clipPath>
+
+    <linearGradient id="aboutBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363D" />
+      <stop offset="50%" stop-color="#00FF66" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#30363D" />
+    </linearGradient>
   </defs>
 
   <style>
-    @keyframes blink {
+    @keyframes cursorBlink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
-    @keyframes avatarPulse {
-      0%, 100% { stroke: #00B341; filter: drop-shadow(0 0 2px rgba(0,179,65,0.4)); }
-      50% { stroke: #00FF66; filter: drop-shadow(0 0 10px rgba(0,255,102,0.8)); }
-    }
-    @keyframes onlinePulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.6; }
-    }
-
     .font-mono { font-family: 'Fira Code', 'Courier New', monospace; }
-    .prompt { fill: #00872E; font-weight: bold; font-size: 14.5px; }
-    .cmd { fill: #0969DA; font-weight: bold; font-size: 14.5px; }
-    .bullet { fill: #00872E; font-size: 14px; font-weight: bold; }
-    .key-prop { fill: #8250DF; font-weight: bold; font-size: 13.5px; }
-    .arrow { fill: #CF222E; font-weight: bold; font-size: 13.5px; }
-    .val-str { fill: #24292F; font-size: 13.5px; }
-    .val-accent { fill: #0969DA; font-size: 13.5px; font-weight: 600; }
-    .val-orange { fill: #BC4C00; font-size: 13.5px; font-weight: 600; }
-    .val-green { fill: #116329; font-size: 13.5px; font-weight: 600; }
-    .val-online { fill: #1A7F37; font-weight: bold; font-size: 13.5px; animation: onlinePulse 2s infinite ease-in-out; }
-    .avatar-border { animation: avatarPulse 2.5s infinite ease-in-out; }
-    .cursor-blink { animation: blink 1s infinite steps(1); fill: #00872E; font-weight: bold; }
+    .term-prompt { fill: #00FF66; font-size: 13px; font-weight: bold; }
+    .term-cmd { fill: #79C0FF; font-size: 13px; font-weight: bold; }
+    .json-bracket { fill: #D2A8FF; font-size: 12.5px; font-weight: bold; }
+    .json-key { fill: #58A6FF; font-size: 12px; font-weight: 600; }
+    .json-colon { fill: #8B949E; font-size: 12px; }
+    .json-str { fill: #A5D6FF; font-size: 12px; }
+    .json-str-accent { fill: #7EE787; font-size: 12px; font-weight: 600; }
+    .json-str-gold { fill: #FFA657; font-size: 12px; font-weight: 600; }
+    .json-comment { fill: #8B949E; font-size: 11.5px; font-style: italic; }
+    .cursor { animation: cursorBlink 1s infinite steps(1); fill: #00FF66; }
   </style>
 
-  <!-- Left Terminal Container (White / Light Background) -->
-  <rect x="2" y="2" width="645" height="336" rx="14" fill="url(#cardLightBg)" stroke="#D0D7DE" stroke-width="1.5" />
+  <!-- Container -->
+  <rect x="2" y="2" width="876" height="316" rx="14" fill="url(#aboutBg)" stroke="url(#aboutBorderGrad)" stroke-width="1.5" />
 
-  <!-- Window controls -->
-  <circle cx="24" cy="20" r="5" fill="#FF5F56" />
-  <circle cx="40" cy="20" r="5" fill="#FFBD2E" />
-  <circle cx="56" cy="20" r="5" fill="#27C93F" />
+  <!-- Window Header -->
+  <circle cx="26" cy="22" r="5" fill="#FF5F56" />
+  <circle cx="44" cy="22" r="5" fill="#FFBD2E" />
+  <circle cx="62" cy="22" r="5" fill="#27C93F" />
+  <text x="82" y="26" class="font-mono" fill="#8B949E" font-size="12px">bash — cat ~/developer-spec.json</text>
 
-  <!-- Prompt & Whoami -->
-  <text x="24" y="52" class="font-mono prompt">┌──(enmanuel@colombia)-[~]</text>
-  <text x="24" y="74" class="font-mono prompt">└─$ <tspan class="cmd">whoami</tspan></text>
-
-  <!-- Profile Key-Values with Code Syntax Colors on White Background -->
-  <g transform="translate(24, 106)" class="font-mono">
-    <!-- Rol -->
-    <text x="0" y="0"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Rol       </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Full-Stack Developer</tspan> <tspan fill="#57606A">|</tspan> <tspan class="val-str">Software Engineer</tspan></text>
-    
-    <!-- Origen -->
-    <text x="0" y="24"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Origen    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-green">Colombia</tspan> <tspan class="val-accent">[CO]</tspan></text>
-    
-    <!-- Stack -->
-    <text x="0" y="48"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Stack     </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Laravel</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">PHP</tspan><tspan fill="#57606A">, </tspan><tspan class="val-accent">MySQL</tspan><tspan fill="#57606A">, </tspan><tspan class="val-orange">JavaScript</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">Tailwind</tspan></text>
-    
-    <!-- Enfoque -->
-    <text x="0" y="72"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Enfoque   </tspan> <tspan class="arrow">→</tspan> <tspan class="val-str">Apps web completas, e-commerce y APIs escalables</tspan></text>
-    
-    <!-- Entorno -->
-    <text x="0" y="96"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Entorno   </tspan> <tspan class="arrow">→</tspan> <tspan class="val-accent">Git</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">GitHub</tspan><tspan fill="#57606A">, </tspan><tspan class="val-orange">Linux</tspan><tspan fill="#57606A">, </tspan><tspan class="val-accent">VS Code</tspan><tspan fill="#57606A">, </tspan><tspan class="val-green">Postman</tspan></text>
-    
-    <!-- Filosofia -->
-    <text x="0" y="120"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Filosofía </tspan> <tspan class="arrow">→</tspan> <tspan class="val-str">Código limpio, arquitectura sólida, aprendizaje continuo</tspan></text>
-    
-    <!-- Proyecto -->
-    <text x="0" y="144"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Proyecto  </tspan> <tspan class="arrow">→</tspan> <tspan class="val-orange">Coffee.Dat</tspan> <tspan fill="#57606A">[Plataforma E-Commerce]</tspan></text>
-    
-    <!-- Estado -->
-    <text x="0" y="168"><tspan class="bullet">◈</tspan> <tspan class="key-prop">Estado    </tspan> <tspan class="arrow">→</tspan> <tspan class="val-online">[ONLINE]</tspan> <tspan class="val-str">Disponible para proyectos y colaboraciones</tspan></text>
+  <!-- Command Line -->
+  <g transform="translate(26, 52)" class="font-mono">
+    <text x="0" y="0" class="term-prompt">emanuel@cloud-box:~$ <tspan class="term-cmd">cat profile.json</tspan></text>
   </g>
 
-  <!-- Bottom prompt with blinking cursor -->
-  <text x="24" y="312" class="font-mono prompt">└─$ <tspan class="cursor-blink">█</tspan></text>
+  <!-- JSON Code Block -->
+  <g transform="translate(26, 74)" class="font-mono">
+    <!-- Line 1: { -->
+    <text x="0" y="0" class="json-bracket">{</text>
 
-  <!-- Right Avatar Card with Animated Glowing Green Border -->
-  <rect x="670" y="35" width="180" height="266" rx="16" fill="url(#cardLightBg)" stroke="#00B341" stroke-width="2.5" class="avatar-border" />
-  
-  <image href="https://github.com/emanuelca109.png" x="680" y="45" width="160" height="190" clip-path="url(#avatarClip)" />
-  
-  <text x="760" y="265" text-anchor="middle" class="font-mono" fill="#00872E" font-size="14px" font-weight="bold">Enmanuel</text>
-  <text x="760" y="285" text-anchor="middle" class="font-mono" fill="#57606A" font-size="12px">@emanuelca109</text>
+    <!-- Line 2: "developer" -->
+    <text x="20" y="18">
+      <tspan class="json-key">"developer"</tspan><tspan class="json-colon">: </tspan><tspan class="json-str-accent">"Emanuel Cabrera"</tspan><tspan class="json-colon">,</tspan>
+      <tspan class="json-comment"> // emanuelca109</tspan>
+    </text>
+
+    <!-- Line 3: "rol" -->
+    <text x="20" y="36">
+      <tspan class="json-key">"rol"</tspan><tspan class="json-colon">: </tspan><tspan class="json-str">"Full-Stack Developer &amp; Software Engineer"</tspan><tspan class="json-colon">,</tspan>
+    </text>
+
+    <!-- Line 4: "pais" -->
+    <text x="20" y="54">
+      <tspan class="json-key">"pais"</tspan><tspan class="json-colon">: </tspan><tspan class="json-str">"Colombia 🇨🇴"</tspan><tspan class="json-colon">,</tspan>
+      <tspan class="json-key"> "disponibilidad"</tspan><tspan class="json-colon">: </tspan><tspan class="json-str-accent">"Full-Time / Freelance"</tspan><tspan class="json-colon">,</tspan>
+    </text>
+
+    <!-- Line 5: "stack_backend" -->
+    <text x="20" y="72">
+      <tspan class="json-key">"stack_backend"</tspan><tspan class="json-colon">: [</tspan><tspan class="json-str-gold">"Laravel"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str-gold">"PHP"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"Python"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"MySQL"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"REST APIs"</tspan><tspan class="json-colon">],</tspan>
+    </text>
+
+    <!-- Line 6: "stack_frontend" -->
+    <text x="20" y="90">
+      <tspan class="json-key">"stack_frontend"</tspan><tspan class="json-colon">: [</tspan><tspan class="json-str-accent">"JavaScript"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str-accent">"TailwindCSS"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"Bootstrap"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"HTML5/CSS3"</tspan><tspan class="json-colon">],</tspan>
+    </text>
+
+    <!-- Line 7: "entorno_y_devops" -->
+    <text x="20" y="108">
+      <tspan class="json-key">"herramientas"</tspan><tspan class="json-colon">: [</tspan><tspan class="json-str">"Git"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"GitHub"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"Linux"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"VS Code"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"Postman"</tspan><tspan class="json-colon">],</tspan>
+    </text>
+
+    <!-- Line 8: "proyectos_clave" -->
+    <text x="20" y="126">
+      <tspan class="json-key">"proyectos_clave"</tspan><tspan class="json-colon">: [</tspan><tspan class="json-str-accent">"Coffee.Dat (E-Commerce)"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"Sistema de Inventario"</tspan><tspan class="json-colon">, </tspan><tspan class="json-str">"Sistema Calificaciones"</tspan><tspan class="json-colon">],</tspan>
+    </text>
+
+    <!-- Line 9: "filosofia" -->
+    <text x="20" y="144">
+      <tspan class="json-key">"filosofia"</tspan><tspan class="json-colon">: </tspan><tspan class="json-str">"Código limpio, modularidad, rendimiento y soluciones escalables"</tspan><tspan class="json-colon">,</tspan>
+    </text>
+
+    <!-- Line 10: "contacto" -->
+    <text x="20" y="162">
+      <tspan class="json-key">"contacto"</tspan><tspan class="json-colon">: </tspan><tspan class="json-str">"emasan1999@gmail.com"</tspan>
+    </text>
+
+    <!-- Line 11: } -->
+    <text x="0" y="180" class="json-bracket">}</text>
+  </g>
+
+  <!-- Prompt bottom -->
+  <g transform="translate(26, 285)" class="font-mono">
+    <text x="0" y="0" class="term-prompt">emanuel@cloud-box:~$ <tspan fill="#8B949E">echo "Listo para colaborar en proyectos de alto nivel"</tspan><tspan class="cursor"> █</tspan></text>
+  </g>
 </svg>
